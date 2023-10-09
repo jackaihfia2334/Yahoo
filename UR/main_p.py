@@ -245,7 +245,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-gpu_id', '--gpu_id', type=str, default='0', help='gpu id')
-    parser.add_argument('-dataset', '--dataset', type=str, default= "../data/Yahoo!R6B", help='dataset')
+    parser.add_argument('-dataset', '--dataset', type=str, default= "/data2/yufan/rec/PlugTS-main/src/data/Yahoo!R6B", help='dataset')
     parser.add_argument('-mo', '--model', type=str, default= 'PlugTS', help='Model name.')
     parser.add_argument('-test', '--test', type=int, default=1, help='test or not')
 
